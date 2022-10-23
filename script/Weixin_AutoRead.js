@@ -1,7 +1,7 @@
 /*
 微信自动阅读
 *************************
-[QuantumultX]:
+QuantumultX:
 [rewrite_local]
 ^https?://mp\.weixin\.qq\.com/s\?.* url script-response-body https://raw.githubusercontent.com/97wj2008/QuantumultX/main/script/Weixin_AutoRead.js
 [mitm]
