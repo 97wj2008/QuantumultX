@@ -11,15 +11,11 @@ TG反馈群：https://t.me/plus8889
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 *******************************
-
+QuantumultX:
 [rewrite_local]
-
 ^https:\/\/top-widgets-api\.xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body https://raw.githubusercontent.com/97wj2008/QuantumultX/main/script/widgets.js
-
 [mitm] 
-
 hostname = top-widgets-api.xiaozujian.com
-
 *******************************/
 
 
