@@ -3,7 +3,7 @@
 ***************************
 QuantumultX:
 [rewrite_local]
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://cdn.jsdelivr.net/gh/sve1r/Rules-For-Quantumult-X@develop/Scripts/AdBlock/Wechat/Wechat.js
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/97wj2008/QuantumultX/main/script/BlockAds_Wechat.js
 [mitm]
 hostname = mp.weixin.qq.com
 **************************/
