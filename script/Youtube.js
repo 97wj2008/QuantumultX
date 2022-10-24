@@ -10,5 +10,5 @@ QuantumultX:
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
 [mitm]
-hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com
+hostname = -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
 ***************************/
