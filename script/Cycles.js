@@ -4,7 +4,7 @@ Cycles解锁订阅
 日期:2022.12.04
 [rewrite_local]
 ^https?:\/\/pcbe\.perigee\.se\/api\/v1\/user\/*\/subscription* url reject
-^https?:\/\/pcbe\.perigee\.se\/api\/v1\/verify-purchases url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Cycles.js
+^https?:\/\/pcbe\.perigee\.se\/api\/v1\/user\/*\/verify-purchases url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Cycles.js
 hostname = pcbe.perigee.se
 **************************************/
 
