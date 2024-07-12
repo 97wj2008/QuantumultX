@@ -2,7 +2,7 @@
 wps v11.35.0
 [rewrite_local]
 
-^https:\/\/(vip|vas)\.wps\.cn\/((v2\/vip_center\/my\/privilege)|(query\/api\/v1\/(list_purchase_info|list_privilege_info))) url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPS.js
+^https:\/\/(vip|vas)\.wps\.cn\/((v2\/vip_center\/my\/privilege)|(query\/api\/v1\/(list_purchase_info|list_privilege_info))) url script-response-body https://raw.githubusercontent.com/97wj2008/QuantumultX/main/script/WPS.js
 
 [mitm] 
 
